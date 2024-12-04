@@ -1,0 +1,25 @@
+Last login: Wed Dec  4 13:22:49 on ttys001
+eliott@iMacdeBauchemin ~ % >....                                                
+
+/* Pied de page */
+footer {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  padding: 20px;
+  background: #111111; /* Noir clair */
+  color: #8a2be2;
+  font-size: 0.9em;
+  animation: footer-glow 2s infinite alternate;
+}
+
+@keyframes footer-glow {
+  0% {
+    color: #8a2be2;
+  }
+  100% {
+    color: #ff0000;
+  }
+}
+
